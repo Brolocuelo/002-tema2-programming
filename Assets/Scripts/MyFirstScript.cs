@@ -7,6 +7,7 @@ public class MyFirstScript : MonoBehaviour
     /*
      4 varaibles whit the player information
     */
+    /*
     public int playerAge = 33;
     // This variables saves the player´s name
     public string playerName = "Luis";
@@ -15,7 +16,7 @@ public class MyFirstScript : MonoBehaviour
     // This variables saves if the player has lost
     [SerializeField]
     private bool gameOver = false;
-
+    
     public string  message ="Hello World";
     public int points = 256;
 
@@ -29,5 +30,6 @@ public class MyFirstScript : MonoBehaviour
         Debug.Log(string.Format("Tengo {0} puntos",points));
         Debug.Log(string.Format("Hola {0}, tienes {1} puntos",playerName, points));
     }
+    */
 
 }
