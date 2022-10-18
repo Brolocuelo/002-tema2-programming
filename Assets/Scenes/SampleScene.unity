@@ -377,9 +377,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63af8bfa70701e647b168ad5e56474e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 7
+  name1: Eustaquio
+  name2: Caledonio
+  x: 10
   y: 4
-  z: 4
 --- !u!1 &463905854
 GameObject:
   m_ObjectHideFlags: 0
