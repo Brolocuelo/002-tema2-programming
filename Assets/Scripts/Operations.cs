@@ -25,7 +25,7 @@ public class Operations : MonoBehaviour
 
     /* public int x = 10;
      public int y = 4;
-    */
+    
     private bool areEqual;
    
     public string name1 = "Eustaquio";
@@ -35,6 +35,9 @@ public class Operations : MonoBehaviour
     public float x = 2.0f;
     public float y = 0.5f;
     private bool isGreater;
+
+    public bool isRaining;
+    public float number;
 
 
     private void Start()
@@ -47,6 +50,20 @@ public class Operations : MonoBehaviour
 
         isGreater = x > y;
         Debug.Log(isGreater);
+
+        if (isRaining == true)
+        {
+            Debug.Log("Recuerda coger el paraguas para no mojarte");
+        }
+        if(number > 0)
+        {
+            Debug.Log($"El número {number} es positivo");
+        }
+        else
+        {
+            Debug.Log("El número {number} es negativo o cero");
+        }
     }
+    */
  
 }

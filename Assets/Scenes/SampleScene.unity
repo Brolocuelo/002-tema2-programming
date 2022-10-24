@@ -320,7 +320,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ab0b872cc7cd8d74eb73805188189e3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -377,10 +377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63af8bfa70701e647b168ad5e56474e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name1: Eustaquio
-  name2: Caledonio
-  x: 10
-  y: 4
 --- !u!1 &463905854
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +488,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34580f31f453174439390bd9b5a79440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheels: 2
+  name: Lolo
+  isOn: 0
+  sound: 
 --- !u!1 &572082200
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +639,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34580f31f453174439390bd9b5a79440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheels: 4
+  name: Francisco
+  isOn: 1
+  sound: Fast as fuck boi
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1649,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34580f31f453174439390bd9b5a79440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheels: 6
+  name: Paco
+  isOn: 0
+  sound: 
 --- !u!1 &1859449350
 GameObject:
   m_ObjectHideFlags: 0
