@@ -39,6 +39,10 @@ public class Operations : MonoBehaviour
     public bool isRaining;
     public float number;
 
+    The variable wheels saves the number of the vehicle
+    [SerializeField]
+    private int wheels = 4;
+
 
     private void Start()
     {
@@ -64,6 +68,22 @@ public class Operations : MonoBehaviour
             Debug.Log("El número {number} es negativo o cero");
         }
     }
+
+      //Debug.Log(string.Format("Hola {0}, tienes ruedas de repuesto aparte de las {1} que tienes?", name, wheels));
+        if(isOn == false)
+        {
+            //Debug.Log(string.Format("{0} está encendido", name));
+            Debug.Log(string.Format("{0} está apagado", name));
+        }
+    else if(sound != "") 
+        {
+            //Debug.Log(string.Format("{0} está apagado", name));
+            Debug.Log(string.Format("{0} está encendido y dice {1}", name, sound));
+        }
+        else
+        {
+            Debug.Log(string.Format("{0} está en marcha", name));
+        }
     */
- 
+
 }

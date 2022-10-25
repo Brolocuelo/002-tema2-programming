@@ -19,9 +19,11 @@ public class MyFirstScript : MonoBehaviour
     
     public string  message ="Hello World";
     public int points = 256;
+    */
+    public Vector3 initialPos = new Vector3(1,1,1);
 
     private void Start()
-    {
+    {/*
         Debug.Log(message);
         Debug.Log(points);
         Debug.Log($"Tengo {points} puntos");
@@ -29,7 +31,9 @@ public class MyFirstScript : MonoBehaviour
 
         Debug.Log(string.Format("Tengo {0} puntos",points));
         Debug.Log(string.Format("Hola {0}, tienes {1} puntos",playerName, points));
+        */
+
+        transform.position = initialPos;
     }
-    */
 
 }

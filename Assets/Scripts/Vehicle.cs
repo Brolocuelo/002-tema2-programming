@@ -12,25 +12,16 @@ public class Vehicle : MonoBehaviour
 
     [SerializeField]
     private bool isOn;
-
     public string sound;
+
+    [SerializeField]
+    private float gasoline;
 
     private void Start()
     {
-        Debug.Log(string.Format("Hola {0}, tienes ruedas de repuesto aparte de las {1} que tienes?", name, wheels));
-        if(isOn == false)
+        if(isOn == true && gasoline < 10)
         {
-            //Debug.Log(string.Format("{0} está encendido", name));
-            Debug.Log(string.Format("{0} está apagado", name));
-        }
-        else if(sound != "") 
-        {
-            //Debug.Log(string.Format("{0} está apagado", name));
-            Debug.Log(string.Format("{0} está encendido y dice {1}", name, sound));
-        }
-        else
-        {
-            Debug.Log(string.Format("{0} está en marcha", name));
+                Debug.Log(string.Format("¡A {} le queda poca gasolina!", name));
         }
     }
     

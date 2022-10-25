@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4642e0d35ad745347b31ba936fa3722f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPos: {x: 1, y: 1, z: 1}
 --- !u!65 &323082063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -358,7 +359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323082061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -490,8 +491,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wheels: 2
   name: Lolo
-  isOn: 0
-  sound: 
+  isOn: 1
+  sound: Eyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+  gasoline: 8.25
 --- !u!1 &572082200
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +645,7 @@ MonoBehaviour:
   name: Francisco
   isOn: 1
   sound: Fast as fuck boi
+  gasoline: 33.9
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,8 +1654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wheels: 6
   name: Paco
-  isOn: 0
-  sound: 
+  isOn: 1
+  sound: ZZZZZZZZZZZZZ
+  gasoline: 49.75
 --- !u!1 &1859449350
 GameObject:
   m_ObjectHideFlags: 0
