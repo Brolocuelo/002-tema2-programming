@@ -24,5 +24,17 @@ public class Vehicle : MonoBehaviour
                 Debug.Log(string.Format("¡A {} le queda poca gasolina!", name));
         }
     }
-    
+
+    private bool canGetBigger = true;
+
+    private void Update()
+    {
+        if (canGetBigger)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                transform.localScale += Vector3.one;
+            }
+        }
+    }
 }

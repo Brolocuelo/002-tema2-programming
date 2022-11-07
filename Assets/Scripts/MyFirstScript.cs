@@ -36,4 +36,14 @@ public class MyFirstScript : MonoBehaviour
         transform.position = initialPos;
     }
 
+    private Vector3 subir = new Vector3(0, 1, 0);
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            transform.position += subir;
+        }
+    }
+
 }

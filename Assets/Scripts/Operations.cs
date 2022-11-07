@@ -4,24 +4,25 @@ using UnityEngine;
 
 public class Operations : MonoBehaviour
 {
-    /* public int x = 7;
+     public int x = 7;
      public float y = 4;
      public int z = 4;
      private float result;
 
-     private void Start()
-     {
-         result = x + y;
-         Debug.Log(string.Format("Sum: {0} + {1} = {2}", x, y, result));
-         result = x - y;
-         Debug.Log(string.Format("Subtractions: {0} - {1} = {2}", x, y, result));
-         result = x * y;
-         Debug.Log(string.Format("Product: {0} * {1} = {2}", x, y, result));
-         result = x / y;
-         Debug.Log(string.Format("Division: {0} / {1} = {2}", x, y, result));
-         result = x % z;
-         Debug.Log(string.Format("Module: {0} % {1} = {2}", x, z, result));
-     }*/
+    /*private void Start()
+    {
+        result = x + y;
+        Debug.Log(string.Format("Sum: {0} + {1} = {2}", x, y, result));
+        result = x - y;
+        Debug.Log(string.Format("Subtractions: {0} - {1} = {2}", x, y, result));
+        result = x * y;
+        Debug.Log(string.Format("Product: {0} * {1} = {2}", x, y, result));
+        result = x / y;
+        Debug.Log(string.Format("Division: {0} / {1} = {2}", x, y, result));
+        result = x % z;
+        Debug.Log(string.Format("Module: {0} % {1} = {2}", x, z, result));
+
+    }*/
 
     /* public int x = 10;
      public int y = 4;
@@ -85,5 +86,22 @@ public class Operations : MonoBehaviour
             Debug.Log(string.Format("{0} está en marcha", name));
         }
     */
+    public float num1 = 7;
+    public float num2 = 4;
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Calculator(x, y);
+        }
+    }
+    private void Calculator (float Num1, float Num2)
+    {
+        Debug.Log($"Sum:{num1} + {num2} = {num1 + num2}");
+        Debug.Log($"Subtracion:{num1} - {num2} = {num1 - num2}");
+        Debug.Log($"Product:{num1} * {num2} = {num1 * num2}");
+        Debug.Log($"Division:{num1} / {num2} = {num1 / num2}");
+    }
 
 }
