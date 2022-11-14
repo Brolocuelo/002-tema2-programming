@@ -68,7 +68,7 @@ public class Operations : MonoBehaviour
         {
             Debug.Log("El número {number} es negativo o cero");
         }
-    }
+    
 
       //Debug.Log(string.Format("Hola {0}, tienes ruedas de repuesto aparte de las {1} que tienes?", name, wheels));
         if(isOn == false)
@@ -85,7 +85,7 @@ public class Operations : MonoBehaviour
         {
             Debug.Log(string.Format("{0} está en marcha", name));
         }
-    */
+    }*/
     public float num1 = 7;
     public float num2 = 4;
 
